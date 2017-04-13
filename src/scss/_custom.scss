@@ -1,0 +1,10 @@
+// Here you can add other styles
+.error-messages1 {
+    -webkit-transition: 60ms linear all;
+    transition: 60ms linear all;
+    background: #E74C3C;
+    color: white;
+    padding: 0 5px 5px 5px;
+}
+
+.error-messages1.ng-active {}

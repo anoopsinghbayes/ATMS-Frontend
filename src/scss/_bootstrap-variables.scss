@@ -1,0 +1,63 @@
+// Bootstrap overrides
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+// Start with assigning color names to specific hex values.
+$white: #fff !default;
+$black: #000 !default;
+$red: #d9534f !default;
+$orange: #f09b2d !default;
+$yellow: #ffd500 !default;
+$green: #85a71e !default;
+$blue: #0c304a !default;
+$teal: #34A6C8 !default;
+$pink: #ff5b77 !default;
+$purple: #613d7c !default;
+$boby-bg:#e4e5e6 !default;
+// Create grayscale
+$gray-dark: #333333 !default;
+$gray: #555555 !default;
+$gray-light: #999999 !default;
+$gray-lighter: #EDEDED !default;
+$gray-lightest: #f7f7f9 !default;
+// Reassign color vars to semantic color scheme
+$brand-primary: $blue !default;
+$brand-success: $green !default;
+$brand-info: $teal !default;
+$brand-warning: $orange !default;
+$brand-danger: $red !default;
+$brand-inverse: $purple !default;
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+$enable-transitions: true;
+$enable-rounded: false;
+// Body
+//
+// Settings for the `<body>` element.
+$body-bg: $boby-bg;
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+html,
+body {
+    font-size: 13px;
+}
+
+$font-size-base: 1rem;
+// Breadcrumbs
+$breadcrumb-bg: #fff;
+// Cards
+$card-border-color: $gray-lighter;
+$card-cap-bg: $gray-lightest;
+// Dropdowns
+$dropdown-padding-y: 0;
+$dropdown-border-color: $gray-lighter;
+$dropdown-divider-bg: $gray-lightest;
+// Buttons
+$btn-secondary-border: $gray-light;
+// Progress bars
+$progress-bg: $gray-lightest;
+// Tables
+$table-bg-accent: $gray-lightest;
+$table-bg-hover: $gray-lightest;
